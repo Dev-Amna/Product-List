@@ -31,9 +31,10 @@ function Desserts() {
 
   return (
     <div className="desserts-container">
-      <h1>Desserts</h1>
-
+    
+  <h1>Desserts</h1>
       <div className="desserts-grid">
+        
         {desserts.map((item, index) => (
           <div className="dessert-card" key={index}>
             <div className="image-wrapper">
